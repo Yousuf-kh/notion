@@ -174,3 +174,21 @@ footer {
   height: 10vh;
   padding: 10px 50px;
 }
+
+@media(max-width:960px){
+  .main_text {
+    width: 100%;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    margin-top: 20px;
+  }
+
+  section,main{
+    padding: 10px 50px;
+  }
+}
